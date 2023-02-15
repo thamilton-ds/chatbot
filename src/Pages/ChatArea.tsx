@@ -5,7 +5,7 @@ import defaultSettings from "../Components/characters";
 import { Configuration, OpenAIApi } from "openai";
 import "../App.css";
 
-const ChatArea = ({ setCurrent }: any) => {
+const ChatArea = () => {
   const storedApiKey = "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";
   const { messages, appendMsg, setTyping } = useMessages([]);
   const [openai, setOpenai] = useState(
