@@ -11,13 +11,4 @@ const defaultSettings = {
     "LANGUAGE": "English"
 }
 
-const spanishSettings = 
-{
-    "STARTING_PROMPT": "Una conversación entre una mujer y un hombre.",
-    "STARTING_REQUEST": "Habla!",
-    "USER_PREFIX": "M: ",
-    "AI_PREFIX": "H:",
-    "LANGUAGE": "Spanish"
-}
-
 export default defaultSettings;

@@ -12,7 +12,6 @@ const ChatArea = ({ setCurrent }: any) => {
     new OpenAIApi(new Configuration({ apiKey: storedApiKey }))
   );
 
-  // Conversation hook
   const [conversation, setConversation] = useState(
     new Conversation(defaultSettings)
   );
